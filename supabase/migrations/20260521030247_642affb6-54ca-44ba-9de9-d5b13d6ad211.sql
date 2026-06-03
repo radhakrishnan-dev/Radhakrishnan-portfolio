@@ -1,0 +1,1 @@
+ALTER TABLE public.project_expenses ADD COLUMN IF NOT EXISTS invoice_id uuid;
